@@ -8,7 +8,7 @@ const LocalStrategy = require("passport-local");
 const path = require("path");
 
 const uri =
-  "mongodb+srv://nhhung:<db_password>@cluster0.u4fto6r.mongodb.net/?appName=Cluster0"; // MongoDB connection URI
+  "mongodb+srv://nhhung:hung%401508@cluster0.u4fto6r.mongodb.net/Movie?retryWrites=true&w=majority"; // MongoDB connection URI
 const client = new MongoClient(uri);
 const app = express();
 
